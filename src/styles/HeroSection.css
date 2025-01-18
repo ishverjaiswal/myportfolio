@@ -1,0 +1,99 @@
+
+.hero-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 50px;
+    background-color: #0d1b2a; 
+    color: #fff;
+    min-height: 70vh; 
+    text-align: center; 
+  }
+  
+  
+  .hero-content {
+    max-width: 80%; 
+    margin-bottom: 30px; 
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h1 span {
+    color: #1e90ff; 
+  }
+  
+  .hero-content h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    padding-top:30px ;
+  }
+  
+  .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    background: #0ef;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .icon:hover {
+    
+    color: #081629;
+    box-shadow: 0 0 20px #0ef;
+  }
+  
+  /* Hero Image */
+  .hero-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 30px; 
+  }
+
+  
+
+  .resbtn button {
+    margin-top: 25px;
+     background-color: #00bcd4;
+     color: white; 
+     border: none;
+      padding: 12px 25px; 
+      font-size: 16px; font-weight: bold; 
+      border-radius: 5px; 
+       cursor: pointer;
+        transition: background-color 0.3s ease,
+         transform 0.3s ease, box-shadow 0.3s ease; 
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+         }
+          .resbtn button:hover { 
+            background-color: #0194a2; 
+             transform: translateY(-2px); 
+             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+             } 
+             
+      .resbtn button:active {
+         background-color: #017b8a; 
+         transform: translateY(0); 
+         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+         }

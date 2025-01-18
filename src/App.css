@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  background-color: #0d1b2a; 
+  color:white;
+  font-family:'outfit';
+}
+
+
+
+.nav-menu{
+  display:flex;
+  align-items:center ;
+  list-style:none ;
+  text-decoration: none;
+  gap:80px;
+  font-size: 20px;
+
+}

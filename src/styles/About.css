@@ -1,0 +1,75 @@
+.about-me {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+   background-color: #0a1727;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  
+  .content {
+    width: 80%;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00bcd4; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .tech-item {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .illustration {
+    position: absolute; 
+    top: 180px; 
+    right: 100px; 
+    width: 150px; 
+    text-align: center;
+  }
+  
+  .my-image {
+    max-width: 120%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #00bcd4; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .my-image:hover {
+    transform: scale(1.05); 
+  }
+
+
+
+  @media (max-width: 900px) {
+
+.my-image{
+    visibility: hidden;
+}
+
+  }
